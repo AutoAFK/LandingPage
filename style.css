@@ -1,4 +1,96 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+html {
+    box-sizing: border-box;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 img {
+    width: 250px;
     height: 250px;
-    width: auto;
+}
+
+/* header */
+.header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 400px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* nav-bar */
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 1 0 auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+/* welcome */
+
+.welcome {
+    display: flex;
+    gap: 100px;
+    margin: 100px 0;
+    font-size: 18px;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.welcome div {
+    flex: 1;
+}
+
+.welcome .welcome-box {
+    flex: 2 1 auto;
+    height: auto;
+    background-color: lightgray;
+}
+
+.welcome button {
+    background: #3882f6;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px transparent;
+    width: 150px;
 }
