@@ -39,7 +39,7 @@ img {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0 500px;
+    padding: 0 300px;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
@@ -100,8 +100,8 @@ img {
 
 /* The place holder of the image */
 .welcome .welcome-box {
-    flex: 0 1 600px;
-    height: auto;
+    flex: 1 1 auto;
+    height: 400;
     background-color: lightgray;
 }
 
@@ -148,5 +148,31 @@ img {
 .quote .person {
     text-align: right;
     font-style: normal;
+    font-weight: bold;
+}
+
+/* contact */
+
+.contact {
+    margin: 100px 300px;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact p,
+.contact h3 {
+    margin: 0;
+}
+
+.contact button {
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
     font-weight: bold;
 }
